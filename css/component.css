@@ -463,6 +463,11 @@ section.bl-expand .bl-icon-close {
   transition: opacity 0.3s linear 0.5s;
 }
 
+.face {
+  width: 50%;
+  height: auto;
+}
+
 @media screen and (max-width: 46.5em) {
   .bl-content,
   .bl-box {
