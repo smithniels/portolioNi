@@ -38,7 +38,7 @@ html {
 
 body {
   font-family: "Lato", Calibri, Arial, sans-serif;
-  color: #f2ede3;
+  color: #1c1c1c;
   background: #333;
   font-size: 0.9em;
   font-weight: 300;
@@ -75,6 +75,7 @@ a:hover {
   height: 50%;
 }
 
+/* TOPLEFT */
 .bl-main > section:first-child {
   top: 0;
   left: 0;
@@ -84,19 +85,19 @@ a:hover {
 .bl-main > section:nth-child(2) {
   top: 0;
   left: 50%;
-  background: #fa987d;
+  background: #1998cb;
 }
 
 .bl-main > section:nth-child(3) {
   top: 50%;
   left: 0;
-  background: #72cca7;
+  background: #f0cd13;
 }
 
 .bl-main > section:nth-child(4) {
   top: 50%;
   left: 50%;
-  background: #10a296;
+  background: #000000;
 }
 
 .bl-box {
