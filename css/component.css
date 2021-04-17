@@ -8,6 +8,7 @@ black ---< 000000  Might want to use that websafe black instead
 blue  ------< 1998CB
 yellow  -------< F0CD13
  */
+
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot");
@@ -77,7 +78,7 @@ a:hover {
 .bl-main > section:first-child {
   top: 0;
   left: 0;
-  background: #f06060;
+  background: #f2a28d;
 }
 
 .bl-main > section:nth-child(2) {
