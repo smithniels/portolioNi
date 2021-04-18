@@ -466,6 +466,7 @@ section.bl-expand .bl-icon-close {
 .face {
   width: 100%;
   height: 400px;
+  margin: 2em;
 }
 
 @media screen and (max-width: 46.5em) {
