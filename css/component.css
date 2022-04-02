@@ -469,6 +469,11 @@ section.bl-expand .bl-icon-close {
   transition: opacity 0.3s linear 0.5s;
 }
 
+.trash {
+  color: blue;
+  font-size: 30em;
+}
+
 @media screen and (max-width: 46.5em) {
   .bl-content,
   .bl-box {
