@@ -1,67 +1,76 @@
 <!DOCTYPE html>
 <!-- Thanks Mary Lou for the full page transition animations!  -->
 <!-- https://smithniels.github.io/portolioNi/ -->
-
 <!-- The wifi in Cafe Kil. not spectacular -->
-
-<!-- The boxes on the Work images need to be a bigger than they are right now in the indepth section-->
+<!-- NOTES -->
+<!-- The boxes on the Work images need to be a bigger than they are right now in the in-depth section-->
+<!--  -->
+<!--  -->
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niels Smith, data analyst & web developer</title>
+    <meta name="description" content="Niels Smith's Portfolio" />
+    <meta
+      name="keywords"
+      content="css transitions, jquery, portfolio, Niels Smith"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Niels Smith, data analyst & web developer</title>
-  <meta name="description" content="Niels Smith's Portfolio" />
-  <meta name="keywords" content="css transitions, jquery, portfolio, Niels Smith" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+  </head>
 
-  <link rel="shortcut icon" href="../favicon.ico" />
-  <link rel="stylesheet" type="text/css" href="css/component.css" />
-  <script src="js/modernizr.custom.js"></script>
-</head>
+  <body>
+    <div class="container">
+      <div id="bl-main" class="bl-main">
+        <section>
+          <div class="bl-box">
+            <h2 class="bl-icon bl-icon-about">About</h2>
+          </div>
+          <div class="bl-content">
+            <!-- <img class="bl-panel-items"> -->
+            <h2>About Niels</h2>
+            <p>
+              Niels is a Danish/American data analyst & web developer working
+              remotely for a local Washington DC non-profit. Niels lives abroad
+              in Copenhagen, Denmark. Despite public outcries from the residents
+              of the city of Copenhagen Niels still hasn't bought a bike.
+            </p>
+            <hl></hl>
+            |
+            <p>
+              <a href="https://smithniels.github.io/portolioNi/"
+                ><strong class="back">Back to Site</strong></a
+              >
+            </p>
+          </div>
+          <span class="bl-icon bl-icon-close"></span>
+        </section>
 
-<body>
-  <div class="container">
-    <div id="bl-main" class="bl-main">
-      <section>
-        <div class="bl-box">
-          <h2 class="bl-icon bl-icon-about">About</h2>
-        </div>
-        <div class="bl-content">
-          <!-- <img class="bl-panel-items"> -->
-          <h2>About Niels</h2>
-          <p>
-            Niels is a Danish/American data analyst & web developer working remotely for a local Washington DC
-            non-profit. Niels lives abroad in Copenhagen, Denmark. Despite public outcries from the residents of the
-            city of Copenhagen Niels still hasn't bought a bike.
-          </p>
-          <hl></hl>
-          |
-          <a href="https://smithniels.github.io/portolioNi/"><strong class="back">Back to Site</strong></a>
-          </p>
-        </div>
-        <span class="bl-icon bl-icon-close"></span>
-      </section>
-
-      <section id="bl-work-section">
-        <div class="bl-box">
-          <h2 class="bl-icon bl-icon-works">Work</h2>
-        </div>
-        <div class="bl-content">
-          <h2>Work</h2>
-          <p>Experienced Data Analyst with a demonstrated history of working in the civic & social organization
-            industry. Skilled in SQL, Python, Javascript, Excel, as well as Employee Training, and Leadership. Strong
-            information technology professional with a Bachelor's Degree in Political Science from the University of
-            California, Berkeley and a Master’s Degree in Public Policy and Management from Carnegie Mellon University.
-
-
-          </p>
-          <p>
-          <ul id="bl-work-items">
-            <li data-panel="panel-1">
-              <a href="#"><img src="images/1.jpg" /></a>
-            </li>
-            <!-- <li data-panel="panel-2">
+        <section id="bl-work-section">
+          <div class="bl-box">
+            <h2 class="bl-icon bl-icon-works">Work</h2>
+          </div>
+          <div class="bl-content">
+            <h2>Work</h2>
+            <p>
+              Experienced Data Analyst with a demonstrated history of working in
+              the civic & social organization industry. Skilled in SQL, Python,
+              Javascript, Excel, as well as Employee Training, and Leadership.
+              Strong information technology professional with a Bachelor's
+              Degree in Political Science from the University of California,
+              Berkeley and a Master’s Degree in Public Policy and Management
+              from Carnegie Mellon University.
+            </p>
+            <p></p>
+            <ul id="bl-work-items">
+              <li data-panel="panel-1">
+                <a href="#"><img src="images/1.jpg" /></a>
+              </li>
+              <!-- <li data-panel="panel-2">
                 <a href="#"><img src="images/2.jpg" /></a>
               </li>
               <li data-panel="panel-3">
@@ -70,124 +79,128 @@
               <li data-panel="panel-4">
                 <a href="#"><img src="images/4.jpg" /></a>
               </li> -->
-          </ul>
-          <!-- <p>
+            </ul>
+            <!-- <p>
               Illustrations by
               <a href="http://dribbble.com/isaac317/click">Isaac Montemayor</a>
             </p> -->
-        </div>
-        <span class="bl-icon bl-icon-close"></span>
-      </section>
-      <section>
-        <div class="bl-box">
-          <h2 class="bl-icon bl-icon-blog">Blog</h2>
-        </div>
-        <div class="bl-content">
-          <h2>Niels Blogs</h2>
-          <article>
-            <h3>Post #1</h3>
-            <h4>Apr 2, 2022</h4>
-            <p>
-              Working on fixing up this new portfolio site. I've been a bit busy the last year with my escape from
-              America, but I have some free time, so I'll try to make this into a decent site. The main problem there is
-              that I've done almost zero non-SQL coding in ages, so this will be a "Fun" project!
-            </p>
-          </article>
-          <a href="https://smithniels.github.io/portolioNi/"><strong class="back">Back to Site</strong></a>
-        </div>
-
-        <span class="bl-icon bl-icon-close"></span>
-      </section>
-      <section>
-        <div class="bl-box">
-          <h2 class="bl-icon bl-icon-contact">Contact</h2>
-        </div>
-        <div class="bl-content">
-          <h2>Contact</h2>
-          
-          <article>
-
-               <h3><a href="https://www.linkedin.com/in/smithniels/">LinkedIn</a></h3>
-                <h3><a href="https://github.com/smithniels">GitHub</a></h3>
-
-                <h3><a href="https://www.facebook.com/nielssmith/">Facebook</a></h3>
-          </article>
-          
-          
-          |
-           <a href="https://smithniels.github.io/portolioNi/">
-            <strong class="back">Back to Site</strong>
-          </a>
-        </div>
-        <span class="bl-icon bl-icon-close"></span>
-      </section>
-      <!-- Panel items for the works -->
-      <div class="bl-panel-items" id="bl-panel-work-items">
-        <div data-panel="panel-1">
-          <div>
-            <img src="images/1.jpg" />
-            <h3>Part 1</h3>
-            <p>
-              Test #1
-            </p>
           </div>
-        </div>
-        <div data-panel="panel-2">
-          <div>
-            <img src="images/2.jpg" />
-            <h3>Part 1</h3>
-            <p>
-              Squid vinyl scenester literally pug, hashtag tofu try-hard
-              typewriter polaroid craft beer mlkshk cardigan photo booth PBR.
-              Chillwave 90's gentrify american apparel carles disrupt.
-              Pinterest semiotics single-origin coffee craft beer thundercats
-              irony, tumblr bushwick intelligentsia pickled. Narwhal mustache
-              godard master cleanse street art, occupy ugh selfies put a bird
-              on it cray salvia four loko gluten-free shoreditch.
-            </p>
-          </div>
-        </div>
-        <div data-panel="panel-3">
-          <div>
-            <img src="images/3.jpg" />
-            <h3>Part 3</h3>
-            <p>
-              Ethical cray wayfarers leggings vice, seitan banksy small batch
-              ethnic master cleanse. Pug chillwave etsy, scenester meh occupy
-              blue bottle tousled blog tonx pinterest selvage mixtape swag
-              cosby sweater. Synth tousled direct trade, hella Austin craft
-              beer ugh chambray.
-            </p>
-          </div>
-        </div>
-        <div data-panel="panel-4">
-          <div>
-            <img src="images/4.jpg" />
-            <h3>Part 4</h3>
-            <p>
-              Fashion axe 90's pug fap. Blog wayfarers brooklyn dreamcatcher,
-              bicycle rights retro YOLO. Wes anderson lomo 90's food truck 3
-              wolf moon, twee jean shorts. Iphone small batch twee wolf yr
-              before they sold out. Brooklyn echo park cred, portland pug
-              selvage flannel seitan tousled mcsweeney's.
-            </p>
-          </div>
-        </div>
-        <nav>
-          <span class="bl-next-work">&gt; Next Project</span>
           <span class="bl-icon bl-icon-close"></span>
-        </nav>
+        </section>
+        <section>
+          <div class="bl-box">
+            <h2 class="bl-icon bl-icon-blog">Blog</h2>
+          </div>
+          <div class="bl-content">
+            <h2>Niels Blogs</h2>
+            <article>
+              <h3>Post #1</h3>
+              <h4>Apr 2, 2022</h4>
+              <p>
+                Working on fixing up this new portfolio site. I've been a bit
+                busy the last year with my escape from America, but I have some
+                free time, so I'll try to make this into a decent site. The main
+                problem there is that I've done almost zero non-SQL coding in
+                ages, so this will be a "Fun" project!
+              </p>
+            </article>
+            <a href="https://smithniels.github.io/portolioNi/"
+              ><strong class="back">Back to Site</strong></a
+            >
+          </div>
+
+          <span class="bl-icon bl-icon-close"></span>
+        </section>
+        <section>
+          <div class="bl-box">
+            <h2 class="bl-icon bl-icon-contact">Contact</h2>
+          </div>
+          <div class="bl-content">
+            <h2>Contact</h2>
+
+            <article>
+              <h3>
+                <a href="https://www.linkedin.com/in/smithniels/" class="zzz"
+                  >LinkedIn</a
+                >
+              </h3>
+              <h3><a href="https://github.com/smithniels">GitHub</a></h3>
+              <h3>
+                <a href="https://www.facebook.com/nielssmith/">Facebook</a>
+              </h3>
+            </article>
+
+            |
+            <a href="https://smithniels.github.io/portolioNi/">
+              <strong class="back">Back to Site</strong>
+            </a>
+          </div>
+          <span class="bl-icon bl-icon-close"></span>
+        </section>
+        <!-- Panel items for the works -->
+        <div class="bl-panel-items" id="bl-panel-work-items">
+          <div data-panel="panel-1">
+            <div>
+              <img src="images/1.jpg" />
+              <h3>Part 1</h3>
+              <p>Test #1</p>
+            </div>
+          </div>
+          <div data-panel="panel-2">
+            <div>
+              <img src="images/2.jpg" />
+              <h3>Part 1</h3>
+              <p>
+                Squid vinyl scenester literally pug, hashtag tofu try-hard
+                typewriter polaroid craft beer mlkshk cardigan photo booth PBR.
+                Chillwave 90's gentrify american apparel carles disrupt.
+                Pinterest semiotics single-origin coffee craft beer thundercats
+                irony, tumblr bushwick intelligentsia pickled. Narwhal mustache
+                godard master cleanse street art, occupy ugh selfies put a bird
+                on it cray salvia four loko gluten-free shoreditch.
+              </p>
+            </div>
+          </div>
+          <div data-panel="panel-3">
+            <div>
+              <img src="images/3.jpg" />
+              <h3>Part 3</h3>
+              <p>
+                Ethical cray wayfarers leggings vice, seitan banksy small batch
+                ethnic master cleanse. Pug chillwave etsy, scenester meh occupy
+                blue bottle tousled blog tonx pinterest selvage mixtape swag
+                cosby sweater. Synth tousled direct trade, hella Austin craft
+                beer ugh chambray.
+              </p>
+            </div>
+          </div>
+          <div data-panel="panel-4">
+            <div>
+              <img src="images/4.jpg" />
+              <h3>Part 4</h3>
+              <p>
+                Fashion axe 90's pug fap. Blog wayfarers brooklyn dreamcatcher,
+                bicycle rights retro YOLO. Wes anderson lomo 90's food truck 3
+                wolf moon, twee jean shorts. Iphone small batch twee wolf yr
+                before they sold out. Brooklyn echo park cred, portland pug
+                selvage flannel seitan tousled mcsweeney's.
+              </p>
+            </div>
+          </div>
+          <nav>
+            <span class="bl-next-work">&gt; Next Project</span>
+            <span class="bl-icon bl-icon-close"></span>
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- /container -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="js/boxlayout.js"></script>
-  <script>
-    $(function () {
-      Boxlayout.init();
-    });
-  </script>
-</body>
-
+    <!-- /container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/boxlayout.js"></script>
+    <script>
+      $(function () {
+        Boxlayout.init();
+      });
+    </script>
+  </body>
 </html>
