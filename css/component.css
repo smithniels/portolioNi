@@ -212,7 +212,7 @@ div.bl-panel-items > div > div {
 
 .bl-content p {
   margin: 0 auto;
-  padding-bottom: 15px;
+  padding-bottom: 15px; 
   font-size: 1.7em;
   line-height: 1.8;
 }
@@ -316,6 +316,7 @@ div.bl-panel-items > div {
   transition: transform 0.5s ease-in-out, opacity 0s linear 0.5s;
   -ms-transform: translateY(0);
 }
+
 
 div.bl-panel-items nav {
   position: absolute;
