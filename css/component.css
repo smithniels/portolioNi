@@ -263,6 +263,10 @@ div.bl-panel-items > div > div {
   max-width: 100%;
 }
 
+.bl-content > article a {
+  color: purple !important;
+}
+
 /* Panel Items */
 
 div.bl-panel-items,
@@ -462,17 +466,13 @@ section.bl-expand .bl-box {
 
 section.bl-expand .bl-content,
 section.bl-expand .bl-icon-close {
-  pointer-events: auto;
+   
   opacity: 1;
   -webkit-transition: opacity 0.3s linear 0.5s;
   -moz-transition: opacity 0.3s linear 0.5s;
   transition: opacity 0.3s linear 0.5s;
 }
 
-.trash {
-  color: blue;
-  font-size: 30em;
-}
 
 @media screen and (max-width: 46.5em) {
   .bl-content,
