@@ -212,7 +212,7 @@ div.bl-panel-items > div > div {
 
 .bl-content p {
   margin: 0 auto;
-  padding-bottom: 15px; 
+  padding-bottom: 15px;
   font-size: 1.7em;
   line-height: 1.8;
 }
@@ -261,10 +261,6 @@ div.bl-panel-items > div > div {
 .bl-content > ul li a img {
   display: block;
   max-width: 100%;
-}
-
-.bl-content > article a {
-  color: #1c1c1c;
 }
 
 /* Panel Items */
@@ -320,7 +316,6 @@ div.bl-panel-items > div {
   transition: transform 0.5s ease-in-out, opacity 0s linear 0.5s;
   -ms-transform: translateY(0);
 }
-
 
 div.bl-panel-items nav {
   position: absolute;
@@ -466,13 +461,12 @@ section.bl-expand .bl-box {
 
 section.bl-expand .bl-content,
 section.bl-expand .bl-icon-close {
-   
+  pointer-events: auto;
   opacity: 1;
   -webkit-transition: opacity 0.3s linear 0.5s;
   -moz-transition: opacity 0.3s linear 0.5s;
   transition: opacity 0.3s linear 0.5s;
 }
-
 
 @media screen and (max-width: 46.5em) {
   .bl-content,
@@ -492,5 +486,3 @@ section.bl-expand .bl-icon-close {
     color: #1c1c1c;
   }
 }
-
-
