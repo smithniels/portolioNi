@@ -101,7 +101,6 @@ var Boxlayout = (function () {
       var $currentPanel = $workPanels.eq(currentWorkPanel);
       currentWorkPanel =
         currentWorkPanel < totalWorkPanels - 1 ? currentWorkPanel + 1 : 0;
-
       var $nextPanel = $workPanels.eq(currentWorkPanel);
 
       $currentPanel
@@ -109,7 +108,6 @@ var Boxlayout = (function () {
         .addClass("bl-hide-current-work")
         .on(transEndEventName, function (event) {
           if (!$(event.target).is("div")) return false;
-
           $(this).off(transEndEventName).removeClass("bl-hide-current-work");
           isAnimating = false;
         });
