@@ -8,7 +8,7 @@ black ---< #1c1c1c  (websafe black)
 blue  ------< 1998CB
 yellow  -------< F0CD13
  */
-
+ 
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot");
@@ -264,7 +264,7 @@ div.bl-panel-items > div > div {
 }
 
 /* Panel Items */
-
+/* 
 div.bl-panel-items,
 div.bl-panel-items > div {
   width: 100%;
@@ -374,7 +374,7 @@ div.bl-panel-items > div.bl-hide-current-work {
   -ms-transform: translateY(-100%) scale(0.5);
   z-index: 0;
 }
-
+ */
 /* Transition classes and properties */
 /* Separated for a better overview and control */
 
