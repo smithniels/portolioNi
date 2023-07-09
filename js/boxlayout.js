@@ -8,6 +8,7 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
+
 var Boxlayout = (function () {
   var $el = $("#bl-main"),
     $sections = $el.children("section"),
