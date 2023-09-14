@@ -218,9 +218,9 @@ div.bl-panel-items > div > div {
 }
 
 .centered-image {
-  max-width: 100%;         /* Ensure the image doesn't overflow the container */
-  height: auto;            /* Keep the image aspect ratio */
-  max-height: 30vh;        /* Optional: limit the image's height X% of the viewport height */
+  max-width: 50%;         /* Ensure the image doesn't overflow the container */
+  /* height: auto;            Keep the image aspect ratio */
+  /* max-height: 30vh;        Optional: limit the image's height X% of the viewport height */
   width: 50%;
 }
 
