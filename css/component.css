@@ -214,12 +214,14 @@ div.bl-panel-items > div > div {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10%;
 }
 
 .centered-image {
   max-width: 100%;         /* Ensure the image doesn't overflow the container */
   height: auto;            /* Keep the image aspect ratio */
-  max-height: 300vh;        /* Optional: limit the image's height to 80% of the viewport height */
+  max-height: 300vh;        /* Optional: limit the image's height X% of the viewport height */
+  width: 50%;
 }
 
 .bl-content p {
