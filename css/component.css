@@ -385,8 +385,6 @@ section.bl-expand .bl-icon-close {
     color: #1c1c1c;
   }
 
-  .centered-image{}
-
   @media only screen and (max-width: 768px) {
     .centered-image {
         max-height: 60vh;     /* Adjust the image's height for mobile devices */
