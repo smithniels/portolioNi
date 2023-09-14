@@ -219,7 +219,7 @@ div.bl-panel-items > div > div {
 .centered-image {
   max-width: 100%;         /* Ensure the image doesn't overflow the container */
   height: auto;            /* Keep the image aspect ratio */
-  max-height: 80vh;        /* Optional: limit the image's height to 80% of the viewport height */
+  max-height: 300vh;        /* Optional: limit the image's height to 80% of the viewport height */
 }
 
 .bl-content p {
