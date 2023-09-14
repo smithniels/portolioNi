@@ -216,6 +216,8 @@ div.bl-panel-items > div > div {
   align-items: center;
 }
 
+img {max-width:100%;}
+
 .bl-content p {
   margin: 0 auto;
   padding-bottom: 15px;
