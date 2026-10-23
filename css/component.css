@@ -398,7 +398,13 @@ section.bl-expand .bl-icon-close {
 }
 
 img {
-  width: 50%;
+  width: 40%;
   height: auto;
+  padding: 15px;
 }
- 
+  .box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 20px;
+}
