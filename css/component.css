@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
-/* 
+/*
 https://www.schemecolor.com/new-pop-art-color-palette.php
 darker red ---< EC3C37
 red --< F8DED7
@@ -8,11 +8,12 @@ black ---< #1c1c1c  (websafe black)
 blue  ------< 1998CB
 yellow  -------< F0CD13
  */
- 
+
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot");
-  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"),
     url("../fonts/icomoon.woff") format("woff"),
     url("../fonts/icomoon.ttf") format("truetype"),
     url("../fonts/icomoon.svg#icomoon") format("svg");
@@ -60,7 +61,11 @@ a:hover {
 
 .back {
   /* 1 pixel black shadow to left, top, right and bottom */
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow:
+    -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
 }
 
 .container {
@@ -218,7 +223,7 @@ div.bl-panel-items > div > div {
 }
 
 .centered-image {
-  max-width: 50%;         /* Ensure the image doesn't overflow the container */
+  max-width: 50%; /* Ensure the image doesn't overflow the container */
   /* height: auto;            Keep the image aspect ratio */
   /* max-height: 30vh;        Optional: limit the image's height X% of the viewport height */
   width: 50%;
@@ -294,7 +299,7 @@ div.bl-panel-items > div > div {
   z-index: 100;
 }
 
-/* 
+/*
 https://www.schemecolor.com/new-pop-art-color-palette.php
 darker red ---< EC3C37
 red --< F8DED7
@@ -387,10 +392,13 @@ section.bl-expand .bl-icon-close {
 
   @media only screen and (max-width: 768px) {
     .centered-image {
-        max-height: 60vh;     /* Adjust the image's height for mobile devices */
+      max-height: 60vh; /* Adjust the image's height for mobile devices */
     }
+  }
 }
 
-
-
+img {
+  width: 50%;
+  height: auto;
 }
+ 
